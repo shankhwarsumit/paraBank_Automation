@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="1.349" tests="10" errors="9" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\dell\eclipse-workspace\YourStore\target\test-classes;C:\Users\dell\eclipse-workspace\YourStore\target\classes;C:\Users\dell\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\dell\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\dell\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\dell\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\dell\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\dell\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\dell\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire11950166010116365667\surefirebooter2537502444183918955.jar C:\Users\dell\AppData\Local\Temp\surefire11950166010116365667 2023-09-03T22-53-46_666-jvmRun1 surefire18022851453890618097tmp surefire_014071881324542970815tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\dell\eclipse-workspace\YourStore\target\test-classes;C:\Users\dell\eclipse-workspace\YourStore\target\classes;C:\Users\dell\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\dell\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\dell\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\dell\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\dell\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\dell\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\dell\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\dell\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\dell\eclipse-workspace\YourStore"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire11950166010116365667\surefirebooter2537502444183918955.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="user.name" value="dell"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="C:\Users\dell\eclipse-workspace\YourStore"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Windows\System32\Wbem;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-20\bin;C:\maven\apache-maven-3.9.4\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\dell\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="Login with valid credentials #1" classname="User Login" time="0.111">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[
+@all @login @validcredentials @all @smoke @regression
+Scenario Outline: Login with valid credentials    &amp#27;[90m# src/test/resource/features/Login.feature:16&amp#27;[0m
+Browser got opened login
+Browser got opened 2
+Before every step hook
+>>user entered username
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login page&amp#27;[0m              &amp#27;[90m# stepDefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+Before every step hook
+>>user entered pass
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username &amp#27;[0m&amp#27;[32m&amp#27;[1mshankhwarsumit&amp#27;[0m  &amp#27;[90m# stepDefinitions.Login.user_enters_valid_username(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[33mAnd &amp#27;[0m&amp#27;[33mEnter Valid password &amp#27;[0m&amp#27;[33m&amp#27;[1m123456&amp#27;[0m                 &amp#27;[90m# stepDefinitions.Login.enter_valid_password(java.lang.String)&amp#27;[0m
+      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.Login.enter_valid_password(Login.java:45)
+	at ✽.Enter Valid password 123456(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:11)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclicks on Login button&amp#27;[0m                      &amp#27;[90m# stepDefinitions.Login.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get navigated to overview page&amp#27;[0m &amp#27;[90m# stepDefinitions.Login.user_should_get_navigated_to_overview_page()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid credentials #2" classname="User Login" time="0.028">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[
+@all @login @validcredentials @all @smoke @regression
+Scenario Outline: Login with valid credentials    &amp#27;[90m# src/test/resource/features/Login.feature:17&amp#27;[0m
+Browser got opened login
+Browser got opened 2
+Before every step hook
+>>user entered username
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login page&amp#27;[0m              &amp#27;[90m# stepDefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+Before every step hook
+>>user entered pass
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username &amp#27;[0m&amp#27;[32m&amp#27;[1mnehakhurana&amp#27;[0m     &amp#27;[90m# stepDefinitions.Login.user_enters_valid_username(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[33mAnd &amp#27;[0m&amp#27;[33mEnter Valid password &amp#27;[0m&amp#27;[33m&amp#27;[1m12345&amp#27;[0m                  &amp#27;[90m# stepDefinitions.Login.enter_valid_password(java.lang.String)&amp#27;[0m
+      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.Login.enter_valid_password(Login.java:45)
+	at ✽.Enter Valid password 12345(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:11)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclicks on Login button&amp#27;[0m                      &amp#27;[90m# stepDefinitions.Login.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get navigated to overview page&amp#27;[0m &amp#27;[90m# stepDefinitions.Login.user_should_get_navigated_to_overview_page()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Login with invalid credentials" classname="User Login" time="0.024">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[
+@all @login @invalidcredentials @all @smoke @regression
+Scenario: Login with invalid credentials        &amp#27;[90m# src/test/resource/features/Login.feature:20&amp#27;[0m
+Browser got opened login
+Browser got opened 2
+Before every step hook
+>>user entered username
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login page&amp#27;[0m            &amp#27;[90m# stepDefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+Before every step hook
+  &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser enters invalid username &amp#27;[0m&amp#27;[33m&amp#27;[1m"shankjh"&amp#27;[0m   &amp#27;[90m# stepDefinitions.Login.user_enters_invalid_username(java.lang.String)&amp#27;[0m
+      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.Login.user_enters_invalid_username(Login.java:61)
+	at ✽.User enters invalid username "shankjh"(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:21)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnter invalid password &amp#27;[0m&amp#27;[36m&amp#27;[1m"1234567890"&amp#27;[0m       &amp#27;[90m# stepDefinitions.Login.enter_invalid_password(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclicks on Login button&amp#27;[0m                    &amp#27;[90m# stepDefinitions.Login.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get a proper warning message&amp#27;[0m &amp#27;[90m# stepDefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid username and invalid password" classname="User Login" time="0.023">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[
+@all @login @validusernameandinvalidpasswprd @all @regression
+Scenario: Login with valid username and invalid password &amp#27;[90m# src/test/resource/features/Login.feature:28&amp#27;[0m
+Browser got opened login
+Browser got opened 2
+Before every step hook
+>>user entered username
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login page&amp#27;[0m                     &amp#27;[90m# stepDefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+Before every step hook
+>>user entered pass
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username &amp#27;[0m&amp#27;[32m&amp#27;[1m"shankhwarsumit"&amp#27;[0m       &amp#27;[90m# stepDefinitions.Login.user_enters_valid_username(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[33mAnd &amp#27;[0m&amp#27;[33mEnters invalid password &amp#27;[0m&amp#27;[33m&amp#27;[1m"1234567890"&amp#27;[0m               &amp#27;[90m# stepDefinitions.Login.enters_invalid_password(java.lang.String)&amp#27;[0m
+      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.Login.enters_invalid_password(Login.java:79)
+	at ✽.Enters invalid password "1234567890"(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:30)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclicks on Login button&amp#27;[0m                             &amp#27;[90m# stepDefinitions.Login.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get a proper warning message&amp#27;[0m          &amp#27;[90m# stepDefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Login with invalid username and valid password" classname="User Login" time="0.011">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[
+@all @login @invalidusernameandvalidpasswprd @all @regression
+Scenario: Login with invalid username and valid password &amp#27;[90m# src/test/resource/features/Login.feature:35&amp#27;[0m
+Browser got opened login
+Browser got opened 2
+Before every step hook
+>>user entered username
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login page&amp#27;[0m                     &amp#27;[90m# stepDefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+Before every step hook
+  &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser enters invalid username &amp#27;[0m&amp#27;[33m&amp#27;[1m"shankhwarsu"&amp#27;[0m        &amp#27;[90m# stepDefinitions.Login.user_enters_invalid_username(java.lang.String)&amp#27;[0m
+      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.Login.user_enters_invalid_username(Login.java:61)
+	at ✽.User enters invalid username "shankhwarsu"(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:36)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters valid password &amp#27;[0m&amp#27;[36m&amp#27;[1m"123456"&amp#27;[0m                     &amp#27;[90m# stepDefinitions.Login.enters_valid_password(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclicks on Login button&amp#27;[0m                             &amp#27;[90m# stepDefinitions.Login.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get a proper warning message&amp#27;[0m          &amp#27;[90m# stepDefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Login without providing any credentials" classname="User Login" time="0.023">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+</error>
+    <system-out><![CDATA[
+@all @login @noncredentials @all @regression
+Scenario: Login without providing any credentials &amp#27;[90m# src/test/resource/features/Login.feature:42&amp#27;[0m
+Browser got opened login
+Browser got opened 2
+Before every step hook
+>>user entered username
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login page&amp#27;[0m              &amp#27;[90m# stepDefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+Before every step hook
+  &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser dont enter any credentials&amp#27;[0m            &amp#27;[90m# stepDefinitions.Login.user_dont_enter_any_credentials()&amp#27;[0m
+      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.Login.user_dont_enter_any_credentials(Login.java:91)
+	at ✽.User dont enter any credentials(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:43)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClicks on Login button&amp#27;[0m                      &amp#27;[90m# stepDefinitions.Login.Clicks_on_Login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get a proper warning message&amp#27;[0m   &amp#27;[90m# stepDefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Register with all fields" classname="User Registration" time="0.034">
+    <error message="Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at &apos;stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)&apos;.&#10;It appears there was a problem with the step definition.&#10;The converted arguments types were (java.lang.Integer)" type="io.cucumber.core.exception.CucumberException">io.cucumber.core.exception.CucumberException: 
+Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+</error>
+    <system-out><![CDATA[
+@all @register @mandatoryfields @smoke @regression
+Scenario: Register with all fields                           &amp#27;[90m# src/test/resource/features/Register.feature:8&amp#27;[0m
+Browser got opened 2
+Before every step hook
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigated to Register Account page&amp#27;[0m              &amp#27;[90m# stepDefinitions.Register.user_navigated_to_register_account_page()&amp#27;[0m
+Before every step hook
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ram"&amp#27;[0m&amp#27;[32m into the First Name field&amp#27;[0m &amp#27;[90m# stepDefinitions.Register.user_enters_firstname_into_the_first_name_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Narayan"&amp#27;[0m&amp#27;[32m into the lastname field&amp#27;[0m      &amp#27;[90m# stepDefinitions.Register.enters_lastname_into_the_lastname_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters Address &amp#27;[0m&amp#27;[32m&amp#27;[1m"Lucknow"&amp#27;[0m&amp#27;[32m into Address field&amp#27;[0m            &amp#27;[90m# stepDefinitions.Register.enters_address_into_address_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters State &amp#27;[0m&amp#27;[32m&amp#27;[1m"Uttar pradesh"&amp#27;[0m&amp#27;[32m into the State field&amp#27;[0m      &amp#27;[90m# stepDefinitions.Register.enters_state_into_the_state_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mEnters Zipcode &amp#27;[0m&amp#27;[31m&amp#27;[1m225002&amp#27;[0m&amp#27;[31m into the Zipcode field&amp#27;[0m           &amp#27;[90m# stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)&amp#27;[0m
+      &amp#27;[31mio.cucumber.core.exception.CucumberException: Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 42 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 47 more
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters phone number &amp#27;[0m&amp#27;[36m&amp#27;[1m9090909090&amp#27;[0m&amp#27;[36m into the Phone field&amp#27;[0m    &amp#27;[90m# stepDefinitions.Register.enters_phone_number_into_the_phone_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters SSN &amp#27;[0m&amp#27;[36m&amp#27;[1m123&amp#27;[0m&amp#27;[36m into the SSN field&amp#27;[0m                      &amp#27;[90m# stepDefinitions.Register.enters_ssn_into_the_ssn_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Username &amp#27;[0m&amp#27;[36m&amp#27;[1m"Narayan"&amp#27;[0m&amp#27;[36m into Username field&amp#27;[0m          &amp#27;[90m# stepDefinitions.Register.enters_username_into_username_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Password &amp#27;[0m&amp#27;[36m&amp#27;[1m1010&amp#27;[0m&amp#27;[36m into Password field&amp#27;[0m               &amp#27;[90m# stepDefinitions.Register.enters_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Confirm &amp#27;[0m&amp#27;[36m&amp#27;[1m1010&amp#27;[0m&amp#27;[36m into Confirm field&amp#27;[0m                 &amp#27;[90m# stepDefinitions.Register.enters_confirm_into_confirm_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mAccount should get successfully created&amp#27;[0m               &amp#27;[90m# stepDefinitions.Register.account_should_get_successfully_created()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Register without providing any fields" classname="User Registration" time="0.012"/>
+  <testcase name="Register with duplicate phone number" classname="User Registration" time="0.028">
+    <error message="Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at &apos;stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)&apos;.&#10;It appears there was a problem with the step definition.&#10;The converted arguments types were (java.lang.Integer)" type="io.cucumber.core.exception.CucumberException">io.cucumber.core.exception.CucumberException: 
+Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+</error>
+    <system-out><![CDATA[
+@all @register @duplicatephonenumber @regression
+Scenario: Register with duplicate phone number                 &amp#27;[90m# src/test/resource/features/Register.feature:28&amp#27;[0m
+Browser got opened 2
+Before every step hook
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigated to Register Account page&amp#27;[0m                &amp#27;[90m# stepDefinitions.Register.user_navigated_to_register_account_page()&amp#27;[0m
+Before every step hook
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"shyam"&amp#27;[0m&amp#27;[32m into the First Name field&amp#27;[0m &amp#27;[90m# stepDefinitions.Register.user_enters_firstname_into_the_first_name_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nara"&amp#27;[0m&amp#27;[32m into the lastname field&amp#27;[0m           &amp#27;[90m# stepDefinitions.Register.enters_lastname_into_the_lastname_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters Address &amp#27;[0m&amp#27;[32m&amp#27;[1m"Lucknow"&amp#27;[0m&amp#27;[32m into Address field&amp#27;[0m              &amp#27;[90m# stepDefinitions.Register.enters_address_into_address_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters State &amp#27;[0m&amp#27;[32m&amp#27;[1m"Uttar pradesh"&amp#27;[0m&amp#27;[32m into the State field&amp#27;[0m        &amp#27;[90m# stepDefinitions.Register.enters_state_into_the_state_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mEnters Zipcode &amp#27;[0m&amp#27;[31m&amp#27;[1m225002&amp#27;[0m&amp#27;[31m into the Zipcode field&amp#27;[0m             &amp#27;[90m# stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)&amp#27;[0m
+      &amp#27;[31mio.cucumber.core.exception.CucumberException: Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 42 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 47 more
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters phone number &amp#27;[0m&amp#27;[36m&amp#27;[1m7355467233&amp#27;[0m&amp#27;[36m into the Phone field&amp#27;[0m      &amp#27;[90m# stepDefinitions.Register.enters_phone_number_into_the_phone_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters SSN &amp#27;[0m&amp#27;[36m&amp#27;[1m321&amp#27;[0m&amp#27;[36m into the SSN field&amp#27;[0m                        &amp#27;[90m# stepDefinitions.Register.enters_ssn_into_the_ssn_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Username &amp#27;[0m&amp#27;[36m&amp#27;[1m"shyamnarayan"&amp#27;[0m&amp#27;[36m into Username field&amp#27;[0m       &amp#27;[90m# stepDefinitions.Register.enters_username_into_username_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Password &amp#27;[0m&amp#27;[36m&amp#27;[1m5555&amp#27;[0m&amp#27;[36m into Password field&amp#27;[0m                 &amp#27;[90m# stepDefinitions.Register.enters_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Confirm &amp#27;[0m&amp#27;[36m&amp#27;[1m5555&amp#27;[0m&amp#27;[36m into Confirm field&amp#27;[0m                   &amp#27;[90m# stepDefinitions.Register.enters_confirm_into_confirm_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mAccount should get successfully created&amp#27;[0m                 &amp#27;[90m# stepDefinitions.Register.account_should_get_successfully_created()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+  <testcase name="Register with duplicate username" classname="User Registration" time="0.031">
+    <error message="Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at &apos;stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)&apos;.&#10;It appears there was a problem with the step definition.&#10;The converted arguments types were (java.lang.Integer)" type="io.cucumber.core.exception.CucumberException">io.cucumber.core.exception.CucumberException: 
+Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+</error>
+    <system-out><![CDATA[
+@all @register @duplicateusername @regression
+Scenario: Register with duplicate username                     &amp#27;[90m# src/test/resource/features/Register.feature:42&amp#27;[0m
+Browser got opened 2
+Before every step hook
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigated to Register Account page&amp#27;[0m                &amp#27;[90m# stepDefinitions.Register.user_navigated_to_register_account_page()&amp#27;[0m
+Before every step hook
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigated to Register Account page&amp#27;[0m                &amp#27;[90m# stepDefinitions.Register.user_navigated_to_register_account_page()&amp#27;[0m
+Before every step hook
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"pyyam"&amp#27;[0m&amp#27;[32m into the First Name field&amp#27;[0m &amp#27;[90m# stepDefinitions.Register.user_enters_firstname_into_the_first_name_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Naara"&amp#27;[0m&amp#27;[32m into the lastname field&amp#27;[0m          &amp#27;[90m# stepDefinitions.Register.enters_lastname_into_the_lastname_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters Address &amp#27;[0m&amp#27;[32m&amp#27;[1m"Lucknow"&amp#27;[0m&amp#27;[32m into Address field&amp#27;[0m              &amp#27;[90m# stepDefinitions.Register.enters_address_into_address_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnters State &amp#27;[0m&amp#27;[32m&amp#27;[1m"Uttar pradesh"&amp#27;[0m&amp#27;[32m into the State field&amp#27;[0m        &amp#27;[90m# stepDefinitions.Register.enters_state_into_the_state_field(java.lang.String)&amp#27;[0m
+Before every step hook
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mEnters Zipcode &amp#27;[0m&amp#27;[31m&amp#27;[1m225002&amp#27;[0m&amp#27;[31m into the Zipcode field&amp#27;[0m             &amp#27;[90m# stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)&amp#27;[0m
+      &amp#27;[31mio.cucumber.core.exception.CucumberException: Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 42 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 47 more
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters phone number &amp#27;[0m&amp#27;[36m&amp#27;[1m73554672333&amp#27;[0m&amp#27;[36m into the Phone field&amp#27;[0m     &amp#27;[90m# stepDefinitions.Register.enters_phone_number_into_the_phone_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters SSN &amp#27;[0m&amp#27;[36m&amp#27;[1m321&amp#27;[0m&amp#27;[36m into the SSN field&amp#27;[0m                        &amp#27;[90m# stepDefinitions.Register.enters_ssn_into_the_ssn_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Username &amp#27;[0m&amp#27;[36m&amp#27;[1m"shankhwarsumit"&amp#27;[0m&amp#27;[36m into Username field&amp#27;[0m     &amp#27;[90m# stepDefinitions.Register.enters_username_into_username_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Password &amp#27;[0m&amp#27;[36m&amp#27;[1m5555&amp#27;[0m&amp#27;[36m into Password field&amp#27;[0m                 &amp#27;[90m# stepDefinitions.Register.enters_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Confirm &amp#27;[0m&amp#27;[36m&amp#27;[1m5555&amp#27;[0m&amp#27;[36m into Confirm field&amp#27;[0m                   &amp#27;[90m# stepDefinitions.Register.enters_confirm_into_confirm_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mwarning message should be displayed&amp#27;[0m                     &amp#27;[90m# stepDefinitions.Register.warning_message_should_be_displayed()&amp#27;[0m
+Browser got closed
+]]></system-out>
+  </testcase>
+</testsuite>

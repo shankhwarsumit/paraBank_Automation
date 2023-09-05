@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="66.128" tests="10" skipped="0" failures="9" errors="0">
+<testcase classname="User Login" name="Login with valid credentials - Example #1.1" time="8.131">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at stepDefinitions.Login.user_enters_valid_username(Login.java:20)
+	at ✽.User enters valid username shankhwarsumit(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:10)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigates to Login page..........................................passed
+When User enters valid username shankhwarsumit..............................failed
+And Enter Valid password 123456.............................................skipped
+And clicks on Login button..................................................skipped
+Then User should get navigated to overview page.............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with valid credentials - Example #1.2" time="6.662">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at stepDefinitions.Login.user_enters_valid_username(Login.java:20)
+	at ✽.User enters valid username nehakhurana(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:10)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigates to Login page..........................................passed
+When User enters valid username nehakhurana.................................failed
+And Enter Valid password 12345..............................................skipped
+And clicks on Login button..................................................skipped
+Then User should get navigated to overview page.............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid credentials" time="6.019">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at stepDefinitions.Login.user_enters_invalid_username(Login.java:42)
+	at ✽.User enters invalid username "shankjh"(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:21)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigates to Login page..........................................passed
+When User enters invalid username "shankjh".................................failed
+And Enter invalid password "1234567890".....................................skipped
+And clicks on Login button..................................................skipped
+Then User should get a proper warning message...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with valid username and invalid password" time="5.842">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at stepDefinitions.Login.user_enters_valid_username(Login.java:20)
+	at ✽.User enters valid username "shankhwarsumit"(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:29)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigates to Login page..........................................passed
+When User enters valid username "shankhwarsumit"............................failed
+And Enter invalid password "1234567890".....................................skipped
+And clicks on Login button..................................................skipped
+Then User should get a proper warning message...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid username and valid password" time="5.407">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at stepDefinitions.Login.user_enters_invalid_username(Login.java:42)
+	at ✽.User enters invalid username "shankhwarsu"(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:36)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigates to Login page..........................................passed
+When User enters invalid username "shankhwarsu".............................failed
+And Enter Valid password "123456"...........................................skipped
+And clicks on Login button..................................................skipped
+Then User should get a proper warning message...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login without providing any credentials" time="3.915">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at stepDefinitions.Login.User_dont_enter_username_into_username_field(Login.java:58)
+	at ✽.User dont enter username into username field(file:///C:/Users/dell/eclipse-workspace/YourStore/src/test/resource/features/Login.feature:43)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigates to Login page..........................................passed
+When User dont enter username into username field...........................failed
+And User dont enter password into password field............................skipped
+Then User should get a proper warning message...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Register with all fields" time="7.881">
+<failure type="io.cucumber.core.exception.CucumberException" message="Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)">
+<![CDATA[io.cucumber.core.exception.CucumberException: Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 38 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 43 more
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigated to Register Account page...............................passed
+When User enters firstname "Ram" into the First Name field..................passed
+And Enters lastname "Narayan" into the lastname field.......................passed
+And Enters Address "gomtinagar" into Address field..........................passed
+And Enters city "Lucknow" into city field...................................passed
+And Enters State "Uttar pradesh" into the State field.......................passed
+And Enters Zipcode 225002 into the Zipcode field............................failed
+And Enters phone number 9090909090 into the Phone field.....................skipped
+And Enters SSN 123 into the SSN field.......................................skipped
+And Enters Username "Narayan" into Username field...........................skipped
+And Enters Password 1010 into Password field................................skipped
+And Enters Confirm 1010 into Confirm field..................................skipped
+And Clicks on Register button...............................................skipped
+Then Account should get successfully created................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Register without providing any fields" time="10.057">
+<system-out><![CDATA[
+Given User navigated to Register Account page...............................passed
+When User dont enter details into any fields................................passed
+And Clicks on Register button...............................................passed
+Then Warning messages should be displayed for all the fields................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Register with duplicate phone number" time="6.946">
+<failure type="io.cucumber.core.exception.CucumberException" message="Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)">
+<![CDATA[io.cucumber.core.exception.CucumberException: Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 38 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 43 more
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigated to Register Account page...............................passed
+When User enters firstname "shyam" into the First Name field................passed
+And Enters lastname "Nara" into the lastname field..........................passed
+And Enters Address "bbk" into Address field.................................passed
+And Enters city "Lucknow" into city field...................................passed
+And Enters State "Uttar pradesh" into the State field.......................passed
+And Enters Zipcode 225002 into the Zipcode field............................failed
+And Enters phone number 7355467233 into the Phone field.....................skipped
+And Enters SSN 321 into the SSN field.......................................skipped
+And Enters Username "shyamnarayan" into Username field......................skipped
+And Enters Password 5555 into Password field................................skipped
+And Enters Confirm 5555 into Confirm field..................................skipped
+And Clicks on Register button...............................................skipped
+Then Account should get successfully created................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Register with duplicate username" time="4.884">
+<failure type="io.cucumber.core.exception.CucumberException" message="Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)">
+<![CDATA[io.cucumber.core.exception.CucumberException: Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 38 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 43 more
+]]>
+</failure>
+<system-out><![CDATA[
+Given User navigated to Register Account page...............................passed
+When User enters firstname "pyyam" into the First Name field................passed
+And Enters lastname "Naara" into the lastname field.........................passed
+And Enters Address "bbk" into Address field.................................passed
+And Enters city "Lucknow" into city field...................................passed
+And Enters State "Uttar pradesh" into the State field.......................passed
+And Enters Zipcode 225002 into the Zipcode field............................failed
+And Enters phone number 73554672333 into the Phone field....................skipped
+And Enters SSN 321 into the SSN field.......................................skipped
+And Enters Username "shankhwarsumit" into Username field....................skipped
+And Enters Password 5555 into Password field................................skipped
+And Enters Confirm 5555 into Confirm field..................................skipped
+And Clicks on Register button...............................................skipped
+Then warning message should be displayed....................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

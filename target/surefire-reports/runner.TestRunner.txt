@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 1.349 s <<< FAILURE! - in runner.TestRunner
+Login with valid credentials #1(User Login)  Time elapsed: 0.111 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+Login with valid credentials #2(User Login)  Time elapsed: 0.028 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+Login with invalid credentials(User Login)  Time elapsed: 0.024 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+Login with valid username and invalid password(User Login)  Time elapsed: 0.023 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+Login with invalid username and valid password(User Login)  Time elapsed: 0.011 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+Login without providing any credentials(User Login)  Time elapsed: 0.023 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+Register with all fields(User Registration)  Time elapsed: 0.034 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+
+Register with duplicate phone number(User Registration)  Time elapsed: 0.028 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+
+Register with duplicate username(User Registration)  Time elapsed: 0.031 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Could not invoke step [Enters Zipcode {int} into the Zipcode field] defined at 'stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepDefinitions.Register.enters_zipcode_into_the_zipcode_field(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+
