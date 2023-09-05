@@ -1,5 +1,6 @@
 
-<img width="944" alt="image" src="https://github.com/shankhwarsumit/paraBank_Automation/assets/88932858/b835afd3-3844-46f9-8335-d649999b7eb4">
+<img width="400" alt="image" src="https://github.com/shankhwarsumit/paraBank_Automation/assets/88932858/b835afd3-3844-46f9-8335-d649999b7eb4">
+<img width="400" alt="image" src="https://github.com/shankhwarsumit/paraBank_Automation/assets/88932858/e4fdd784-940b-4ab4-9bf5-8c5d76e62d42">
 
 # paraBank_Automation
 
